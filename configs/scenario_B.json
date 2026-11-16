@@ -1,0 +1,22 @@
+{
+  "id": "B",
+  "role": "reglage",
+  "description": "One obstacle on the straight line",
+  "params_version": "params-v1",
+  "start": [
+    1.0,
+    5.0,
+    0.0
+  ],
+  "goal": [
+    9.0,
+    5.0
+  ],
+  "obstacles": [
+    [
+      5.0,
+      5.0,
+      0.7
+    ]
+  ]
+}

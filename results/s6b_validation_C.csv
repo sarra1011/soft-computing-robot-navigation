@@ -1,0 +1,5 @@
+scenario,controller,system,condition,N,success,collision,timeout,blocked,T_mean,T_std,L_mean,L_std,n_used,min_guard_mean,min_guard_std,min_guard_worst,sum_dv_mean,sum_domega_mean,t_compute_median_us,t_compute_p95_us,preventive_stops,mode_switches_mean
+C,sugeno,sys-v1,nominal,1,1,0,0,0,67.5,0,12.3297,0,1,0.764651,0,0.764651,38.9991,987.441,9.8935,12.3401,0,656
+C,sugeno,sys-v1,noisy,20,20,0,0,0,68.925,0.611835,12.348,0.0369498,20,0.765876,0.0260491,0.719044,41.7204,873.086,9.91,12.7577,0,554.3
+C,sugeno_ga,sys-v1,nominal,1,1,0,0,0,58.35,0,12.2254,0,1,0.660507,0,0.660507,29.9919,883.522,9.945,13.252,0,526
+C,sugeno_ga,sys-v1,noisy,20,20,0,0,0,59.7125,0.683619,12.2305,0.0378096,20,0.649483,0.0208888,0.615706,33.7701,833.966,10.1105,13.3941,0,465.6

@@ -1,0 +1,10 @@
+OS            : Linux-6.18.44-fc-v470-x86_64-with-glibc2.39
+CPU           : Intel(R) Xeon(R) Processor @ 2.30GHz
+Logical cores : 2
+RAM           : 7.8 GB
+Python        : 3.13.18 (CPython)
+numpy         : 2.5.3
+matplotlib    : 3.11.2
+scikit-fuzzy  : 0.5.0
+scikit-learn  : 1.9.1
+Timing method : time.perf_counter() around each controller.compute() call (one decision), plotting and logging excluded.

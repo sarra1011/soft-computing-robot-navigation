@@ -1,0 +1,17 @@
+Manual check (handout): u = 0.25
+  lambda_Bas  = 0.875000   (expected 0.875)
+  lambda_Haut = 0.125000   (expected 0.125)
+  Sugeno out  = 0.275000   (expected 0.275)
+Mamdani with Faible = tri(0, 0.2, 0.5), Fort = tri(0.5, 0.8, 1.0):
+  grid    11 pts : engine = 0.324638   explicit sums = 0.324638
+  grid   101 pts : engine = 0.333544   explicit sums = 0.333544
+  grid  1001 pts : engine = 0.333654   explicit sums = 0.333654
+Membership bounds and coverage (min over domain of max_i mu_i, must be > 0):
+  rho      sets ['Proche', 'Moyenne', 'Loin']  in [0,1]: yes   coverage = 0.242
+  alpha    sets ['GN', 'N', 'Z', 'P', 'GP']  in [0,1]: yes   coverage = 0.334
+  v        sets ['S', 'L', 'M', 'R']  in [0,1]: yes   coverage = 0.286
+  omega    sets ['TD', 'D', 'Z', 'G', 'TG']  in [0,1]: yes   coverage = 0.200
+  d_front  sets ['Danger', 'Vigilance', 'Libre']  in [0,1]: yes   coverage = 0.308
+  beta     sets ['Droite', 'Face', 'Gauche']  in [0,1]: yes   coverage = 0.500
+  out-of-domain inputs saturated and counted: 2 events
+scikit-fuzzy 0.5.0 cross-check on 300 random (rho, alpha): max |difference| = 3.17e-03  (skfuzzy centroid integrates the piecewise-linear curve, ours is the discrete sum of the handout; differences come from that)

@@ -1,0 +1,6 @@
+sys-v1 classic  status = arrived  blocked = True t_blocked = 21.00 s  final rho = 0.19 m  switches = 406
+sys-v1 mamdani  status = arrived  blocked = True t_blocked = 20.85 s  final rho = 0.19 m  switches = 550
+sys-v1 sugeno   status = arrived  blocked = True t_blocked = 21.35 s  final rho = 0.20 m  switches = 476
+sys-v2 classic  status = timeout  blocked = True t_blocked = 21.65 s  final rho = 5.51 m  switches = 19
+sys-v2 mamdani  status = timeout  blocked = True t_blocked = 21.60 s  final rho = 5.35 m  switches = 17
+sys-v2 sugeno   status = timeout  blocked = True t_blocked = 22.05 s  final rho = 5.39 m  switches = 11

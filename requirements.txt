@@ -1,0 +1,10 @@
+numpy>=1.24
+matplotlib>=3.7
+scikit-learn>=1.3
+pillow>=9.0
+# optional: cross-check of the hand-written fuzzy engine
+scikit-fuzzy>=0.4.2
+# optional: rebuild the notebooks (make_notebooks.py)
+nbformat>=5.0
+# versions used for the reference run (Linux, Python 3.13):
+# numpy==2.5.3 matplotlib==3.11.2 scikit-learn==1.9.1 pillow==12.3.0 scikit-fuzzy==0.5.0

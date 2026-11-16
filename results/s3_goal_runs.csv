@@ -1,0 +1,13 @@
+scenario,controller,version,condition,seed,status,success,collision,timeout,arrival_time,path_length,min_guard,min_wall,sum_dv,sum_domega,t_compute_median,t_compute_p95,n_decisions,n_preventive_stops,n_avoid_steps,n_mode_switches,blocked,t_blocked,n_no_rule
+A,classic,v1.0,nominal,,arrived,1,0,0,19.4,11.1587,inf,0.8,0.612506,1.5,4e-07,5.89e-07,388,0,0,0,0,nan,0
+A,mamdani,v1.0,nominal,,arrived,1,0,0,30.45,11.1334,inf,0.8,0.772646,0.803115,2.1013e-05,2.81114e-05,609,0,0,0,0,nan,0
+A,sugeno,v1.0,nominal,,arrived,1,0,0,29.9,11.1297,inf,0.8,0.913824,0.913978,6.5515e-06,8.07195e-06,598,0,0,0,0,nan,0
+A,sugeno_centroid,v1.0,nominal,,arrived,1,0,0,30.65,11.1284,inf,0.8,0.804185,0.873044,6.428e-06,1.0207e-05,613,0,0,0,0,nan,0
+A_back,classic,v1.0,nominal,,arrived,1,0,0,10.95,5.5618,inf,0.930144,1.03702,1.5,4.28e-07,6.471e-07,219,0,0,0,0,nan,0
+A_back,mamdani,v1.0,nominal,,arrived,1,0,0,20.65,5.51558,inf,0.937351,0.847873,1.19955,2.0688e-05,2.81684e-05,413,0,0,0,0,nan,0
+A_back,sugeno,v1.0,nominal,,arrived,1,0,0,20.85,5.47491,inf,0.938345,0.91967,1.32208,6.565e-06,8.2184e-06,417,0,0,0,0,nan,0
+A_back,sugeno_centroid,v1.0,nominal,,arrived,1,0,0,20.9,5.51017,inf,0.934069,0.819906,1.23229,6.448e-06,8.34845e-06,418,0,0,0,0,nan,0
+G,classic,v1.0,nominal,,arrived,1,0,0,11,5.98032,inf,1.8,0.935012,1.5,4.29e-07,6.302e-07,220,0,0,0,0,nan,0
+G,mamdani,v1.0,nominal,,arrived,1,0,0,20.7,5.92026,inf,1.8,0.856418,1.20874,2.05655e-05,2.93585e-05,414,0,0,0,0,nan,0
+G,sugeno,v1.0,nominal,,arrived,1,0,0,20.9,5.90157,inf,1.8,0.955856,1.3196,6.4665e-06,8.15425e-06,418,0,0,0,0,nan,0
+G,sugeno_centroid,v1.0,nominal,,arrived,1,0,0,20.9,5.90887,inf,1.8,0.846028,1.22639,6.495e-06,8.11145e-06,418,0,0,0,0,nan,0

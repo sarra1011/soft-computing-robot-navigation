@@ -1,0 +1,13 @@
+{
+  "dt": 0.05,
+  "t_max": 120.0,
+  "wheel_radius": 0.05,
+  "track": 0.3,
+  "v_max": 0.6,
+  "w_max": 1.5,
+  "robot_radius": 0.2,
+  "goal_tol": 0.2,
+  "arena": 10.0,
+  "margin": 0.15,
+  "version": "params-v1"
+}

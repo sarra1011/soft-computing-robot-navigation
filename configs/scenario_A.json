@@ -1,0 +1,16 @@
+{
+  "id": "A",
+  "role": "reglage",
+  "description": "Empty arena, goal on the diagonal",
+  "params_version": "params-v1",
+  "start": [
+    1.0,
+    1.0,
+    0.0
+  ],
+  "goal": [
+    9.0,
+    9.0
+  ],
+  "obstacles": []
+}

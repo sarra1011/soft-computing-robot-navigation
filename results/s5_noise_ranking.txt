@@ -1,0 +1,7 @@
+Ranking per scenario: nominal vs noisy (success first, then mean time)
+  sys-v1 D: nominal ['classic', 'mamdani', 'sugeno']  noisy ['classic', 'mamdani', 'sugeno']  -> same
+  sys-v1 E: nominal ['mamdani', 'classic', 'sugeno']  noisy ['mamdani', 'classic', 'sugeno']  -> same
+  sys-v1 F: nominal ['classic', 'mamdani', 'sugeno']  noisy ['classic', 'mamdani', 'sugeno']  -> same
+  sys-v2 D: nominal ['classic', 'mamdani', 'sugeno']  noisy ['classic', 'mamdani', 'sugeno']  -> same
+  sys-v2 E: nominal ['classic', 'mamdani', 'sugeno']  noisy ['mamdani', 'classic', 'sugeno']  -> CHANGED
+  sys-v2 F: nominal ['classic', 'mamdani', 'sugeno']  noisy ['classic', 'mamdani', 'sugeno']  -> same

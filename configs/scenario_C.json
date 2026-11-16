@@ -1,0 +1,27 @@
+{
+  "id": "C",
+  "role": "validation",
+  "description": "Two obstacles on the diagonal",
+  "params_version": "params-v1",
+  "start": [
+    1.0,
+    1.0,
+    0.0
+  ],
+  "goal": [
+    9.0,
+    9.0
+  ],
+  "obstacles": [
+    [
+      4.0,
+      4.0,
+      0.6
+    ],
+    [
+      6.0,
+      6.0,
+      0.6
+    ]
+  ]
+}
