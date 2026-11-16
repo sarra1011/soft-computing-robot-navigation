@@ -12,6 +12,10 @@ Two soft-computing extensions are also included: an **MLP** that imitates the fu
 controller, and a **genetic algorithm** that tunes the Sugeno system.
 
 <p align="center">
+  <a href="https://sarra1011.github.io/soft-computing-robot-navigation/viewer.html"><b>▶ Open the live interactive replay</b></a>
+</p>
+
+<p align="center">
   <img src="figures/demo_D_sys-v2.gif" width="420" alt="Test scenario D, three controllers">
 </p>
 
@@ -31,7 +35,7 @@ controller, and a **genetic algorithm** that tunes the Sugeno system.
 - **Extensions:**
   - the MLP (32-16) reaches 0.003 m/s and 0.015 rad/s test error, yet a low imitation error does not guarantee good navigation;
   - the genetic algorithm (12 × 10, tournament, arithmetic crossover) is compared with random search at equal budget.
-- **Interactive replay:** `viewer.html` replays the test runs in any browser.
+- **Interactive replay:** [live viewer](https://sarra1011.github.io/soft-computing-robot-navigation/viewer.html) (or open `viewer.html` locally) replays the test runs in the browser: choose the map, system version and seed, then play the three robots side by side.
 
 ## Results (test maps, `sys-v1`, 20 noisy runs each)
 | Map | Classic | Mamdani | Sugeno |
@@ -46,7 +50,11 @@ All tables are in [`results/RESULTS.md`](results/RESULTS.md). The analysis (in F
 |---|---|
 | ![](figures/s3_surfaces.png) | ![](figures/s4_chattering_v1_vs_v2.png) |
 
-## Run it
+## Run it on Kaggle (no install)
+1. On kaggle.com: Create → New Notebook → File → Import Notebook → `kaggle/soft_computing_kaggle.ipynb`
+2. Click **Run All** (about 8–10 min). Outputs (figures, logs, tables, `viewer.html`) are zipped at the end.
+
+## Run it locally
 ```bash
 python -m venv .venv
 .venv\Scripts\activate          # Linux / macOS: source .venv/bin/activate
